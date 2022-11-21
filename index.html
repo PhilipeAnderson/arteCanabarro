@@ -1,0 +1,1925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arte Canabarro</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css" />
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="header-home row">     
+      <!-- Menu Default -->
+      <div class="col-2">
+        <img src="./assets/images/logo.jpeg" alt="Logo" class="logo-header-home" />
+      </div>
+      <div class="col-10">
+        <ul class="menu-list">
+          <li>
+            <a href="#"> Início </a>
+          </li>
+          <li>
+            <a href="#"> Ateliê </a>
+          </li>
+          <li>
+            <a href="#"> Exposição </a>
+          </li>
+        </ul>
+      </div>
+      <!-- <div class="col-2 icons-container">
+          <a href="">
+            <span class="mdi mdi-magnify"></span>
+          </a>
+          <a href="">
+            <font>INFANTIL</font>
+          </a>
+          <a href="">
+            <span class="mdi mdi-bell"></span>
+          </a>
+          <a href="">
+            <img
+              src="./assets/images/perfil-icon.png"
+              alt="perfil"
+              class="perfil-icon"
+            />
+            <span class="mdi mdi-menu-down"></span>
+          </a>
+          <a href=""></a>
+        </div> -->
+        <div class="hamburguer">
+          <img src="./assets/images/hamb.png" alt="" />
+        </div>
+        <div class="hamburguer-menu">
+          <div class="hamburguer-close">
+            <p>X</p>
+          </div>
+          <ul class="hamburguer-menu-list">
+            <li>
+              <a href="#"> Início </a>
+            </li>
+            <li>
+              <a href="#"> Ateliê </a>
+            </li>
+            <li>
+              <a href="#"> Exposição </a>
+            </li>
+          </ul>     
+        </div>
+    </header>
+  </div>
+  <div id="hero" class="container-fluid">
+    <img src="./assets/images/bannerCanabarroFinal.png" />
+    <!-- <div class="container">
+        <div class="row" id="hero-infos">
+          <div class="col-6">
+            <img
+              class="painel"
+              src="./assets/images/PainelCallArteCanabarro.png"
+              alt="logo"
+              class="logo-hero"
+              draggable="false"
+            />
+            <h1 class="text-white">
+              <img
+                src="./assets/images/badge-top-10.png"
+                alt="top-10"
+                draggable="false"
+              />
+              Um Artista Plástico dos Pampas
+            </h1>
+            <p class="text-white">
+              Faço arte porque a arte é o que eu amo fazer...
+            </p>
+            <br />
+            <div class="buttons-container">
+              <button class="btn btn-lg button-white">
+                <span class="mdi mdi-play"></span>
+                Fale Conosco
+              </button>
+              <button class="btn btn-lg button-translucent">
+                <span class="mdi mdi-information-outline"></span>
+                Entre em contato
+              </button>
+            </div>
+          </div>
+          <div id="age" class="col-6">
+            <div class="box">
+              <h2>Envio para todo o Brasil</h2>
+            </div>
+          </div>
+        </div
+      </div> -->
+  </div>
+
+  <main class="main-content">
+    <section>
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5 class="text-white title">Xilogravura 2 Cores</h5>
+          </div>
+        </div>
+      </div> -->
+      <h5 class="title">Xilogravuras</h5>
+      <!-- Primeira Linha com as opções de Quadros "Início das Obras" -->
+      <div class="col-12">
+        <ul class="movie-list">
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal01()" >
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img01" src="./assets/images/xilogravuras/chairLight.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>-->
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>==>
+                <!--<a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Quadro a Óleo</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font> Contemporânea </font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal02()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img02" src="./assets/images/xilogravuras/building01_03cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Quadro a Óleo</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal03()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img03" src="./assets/images/xilogravuras/building02_03cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Quadro a Óleo</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal04()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img04" src="./assets/images/xilogravuras/building03_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Quadro a Óleo</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal05()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img05" src="./assets/images/xilogravuras/forge01_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Quadro a Óleo</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+
+    <section>
+      <h5 class="title">Xilogravuras</h5>
+      <div class="col-12">
+        <ul class="movie-list">
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal06()" >
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img06" src="./assets/images/xilogravuras/soulRed_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>-->
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>==>
+                <!--<a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Arte Plástica</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font> Contemporânea </font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal07()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img07" src="./assets/images/xilogravuras/sun01_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Arte Plástica</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal08()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img08" src="./assets/images/xilogravuras/sun02_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Arte Plástica</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal09()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img09" src="./assets/images/xilogravuras/sun03_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Arte Plástica</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal10()">
+          <!-- <li class="movie" data-toggle="modal" data-target="#movie-modal"> -->
+            <img id="img10" src="./assets/images/xilogravuras/sun04_02cores.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Arte Plástica</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Branco </font>
+                  <div class="point"></div>
+                  <font> Cinza </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h5 class="title">Xilogravuras</h5>
+      <div class="col-12">
+        <ul class="movie-list">
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal11()">
+            <img id="img11" src="./assets/images/xilogravuras/barbedWired.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal12()">
+            <img id="img12" src="./assets/images/xilogravuras/cableCut.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal13()">
+            <img id="img13" src="./assets/images/xilogravuras/highVoltageWires.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal14()">
+            <img id="img14" src="./assets/images/xilogravuras/buildingsGrow.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal15()">
+            <img id="img15" src="./assets/images/xilogravuras/robotOut.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h5 class="title">Xilogravura 25</h5>
+      <div class="col-12">
+        <ul class="movie-list">
+          <!-- <h1 class="prev"> < </h1> -->
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal16()">
+            <img id="img16" src="./assets/images/xilogravuras/wavesWired.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal17()">
+            <img id="img17" src="./assets/images/xilogravuras/mosquitoRobot.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal18()">
+            <img id="img18" src="./assets/images/xilogravuras/spiderRobot.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal19()">
+            <img id="img19" src="./assets/images/xilogravuras/sofaAlone.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal20()">
+            <img id="img20" src="./assets/images/xilogravuras/sofaSoul.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <h1 class="next"> > </h1> -->
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h5 class="title">Xilogravura 26</h5>
+      <div class="col-12">
+        <ul class="movie-list">
+          <!-- <h1 class="prev"> < </h1> -->
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal21()">
+            <img id="img21" src="./assets/images/xilogravuras/wavesWired.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal22()">
+            <img id="img22" src="./assets/images/xilogravuras/mosquitoRobot.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal23()">
+            <img id="img23" src="./assets/images/xilogravuras/spiderRobot.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal24()">
+            <img id="img24" src="./assets/images/xilogravuras/sofaAlone.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="movie" data-toggle="modal" data-target="#movie-modal" onclick="infoModal25()">
+            <img id="img25" src="./assets/images/xilogravuras/sofaSoul.png" alt="" class="img-fluid" />
+            <div class="movie-info">
+              <div class="col-12">
+                <div class="btn-custom-round btn btn-light rounded-circle">
+                  <span class="mdi mdi-play"></span>
+                </div>
+                <!--<a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-up-outline text-white"></span>
+                  </a>
+                  <a
+                    href="#"
+                    class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    "
+                  >
+                    <span class="mdi mdi-thumb-down-outline text-white"></span>
+                  </a>
+                <a href="#" class="
+                      btn-custom-round
+                      border-white
+                      btn
+                      rounded-circle
+                      opacity-50
+                    ">
+                  <span class="mdi mdi-plus text-white"></span>
+                </a>-->
+              </div>
+              <div class="col-12 card-flex">
+                <font class="percent">Últimos Trabalhos</font>
+                <div class="card-box">
+                  <font>Saiba Mais</font>
+                </div>
+                <!-- <font class="time">2h 3min</font>
+                  <div class="hd">
+                    <font>HD</font>
+                  </div> -->
+              </div>
+              <div class="col-12 card-flex">
+                <div class="tags">
+                  <font>Contemporânea</font>
+                  <!--<div class="point"></div>
+                  <font> Cinza </font>
+                  <div class="point"></div>
+                  <font> Branco </font>-->
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- <h1 class="next"> > </h1> -->
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contentFooter">
+      <img class="logoFooter" src="./assets/images/logo.jpeg" />
+      <div class="fonder">
+        <h4 class="textFonder">Encontre-nos</h4>
+        <ul class="fonderList">
+          <li><img class="iconFooter" src="./assets/images/iconFace.png" /></li>
+          <li><img class="iconFooter" src="./assets/images/iconInsta.png" /></li>
+          <li><img class="iconFooter" src="./assets/images/iconWhats.png" /></li>
+        </ul>
+      </div>
+      <div class="textFooter">
+        <h4> Próximos Eventos </h4>
+      </div>
+    </div>
+
+    <div class="authorFooter">
+      <h4> Criado por Philipe Anderson by <a href="https://phillinks.com.br" target="_blank">Phillinks</a> </h4>
+    </div>
+  </footer>
+
+  <div class="modal fade" id="movie-modal">
+    <div class="modal-dialog">
+      <div class="modal-close">
+        <p>Voltar</p>
+      </div>
+      <div class="modal-content">
+        <div class="modal-hero">
+          <img id="img-modal" src="" alt="movie" />
+          <div class="col-12 modal-hero-infos">
+            <!-- <button class="btn btn-lg button-white">
+                <span class="mdi mdi-play"></span>
+                Compartilhar
+              </button> -->
+            <!-- <a
+                href="#"
+                class="
+                  btn-custom-round
+                  border-white
+                  btn btn-lg
+                  rounded-circle
+                  opacity-50
+                "
+              >
+                <span class="mdi mdi-plus text-white"></span>
+              </a>
+              <a
+                href="#"
+                class="
+                  btn-custom-round
+                  border-white
+                  btn btn-lg
+                  rounded-circle
+                  opacity-50
+                "
+              >
+                <span class="mdi mdi-thumb-up-outline text-white"></span>
+              </a>
+              <a
+                href="#"
+                class="
+                  btn-custom-round
+                  border-white
+                  btn btn-lg
+                  rounded-circle
+                  opacity-50
+                "
+              >
+                <span class="mdi mdi-thumb-down-outline text-white"></span>
+              </a> -->
+          </div>
+        </div>
+        <div class="modal-infos">
+          <div class="container">
+            <div class="row">
+              <div class="col-7">
+                <p id="des-modal" class="description-movie">
+                  
+                </p>
+              </div>
+              <div class="col-5">
+                <div class="cast-movie">
+                  Criação: <text id="cri-modal"></text>
+                  <br />
+                  <br />
+                  Artista: <text id="art-modal"></text>
+                  <br />
+                  <br />
+                  Modalidade: <text id="mod-modal"></text>
+                  <br />
+                  <br />
+                  Valor:<text id="mod-value"></text>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-7">
+                <h3 class="text-white">Próximos Eventos e Exposições</h3>
+              </div>
+              <!-- <div class="col-5 text-right">
+                  <select class="form-control" id="seasons">
+                    <option value="Temporada1">Temporada 1</option>
+                    <option value="Temporada2">Temporada 2</option>
+                    <option value="Temporada3">Temporada 3</option>
+                    <option value="Temporada4">Temporada 4</option>
+                    <option value="Temporada5">Temporada 5</option>
+                  </select>
+                </div> -->
+            </div>
+            <br />
+            <div class="row">
+              <ul class="episodes-list">
+                <li>
+                  <div class="row">
+                    <div class="col-1 my-auto text-center">
+                      <h3 class="text-white">1</h3>
+                    </div>
+                    <div class="col-4">
+                      <img class="img-fluid" src="./assets/images/episode1.jpeg" alt="Episode 1" />
+                    </div>
+                    <div class="col-7">
+                      <h6 class="text-white">Galeria em Casa</h6>
+                      <p class="text-muted">
+                        A próxima exposição será nos dias 11/12 e 12/12 de 2022
+                        a entrada é franca, os convidados terão a oportunidade de discutir a arte
+                        diretamente com a presença dos artistas
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-1 my-auto text-center">
+                      <h3 class="text-white">2</h3>
+                    </div>
+                    <div class="col-4">
+                      <img class="img-fluid" src="./assets/images/episode2.jpg" alt="Episode 1" />
+                    </div>
+                    <div class="col-7">
+                      <h6 class="text-white">Museu Canabarro</h6>
+                      <p class="text-muted">
+                        O museu abre as portas para atender o público amante da arte nos dias 07/01 e 09/01 de 2023
+                        a presença do artista expositor Miguel Canabarro está confirmada no local não deixe de conferir
+                        mais nos ite do museu
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-1 my-auto text-center">
+                      <h3 class="text-white">3</h3>
+                    </div>
+                    <div class="col-4">
+                      <img class="img-fluid" src="./assets/images/episode3.png" alt="Episode 1" />
+                    </div>
+                    <div class="col-7">
+                      <h6 class="text-white">Arte na Praça</h6>
+                      <p class="text-muted">
+                        Será um evento aberto ao público onde o foco do evento está com foco nas crianças que desejarem
+                        aprender mais sobre a construção da ideia por trás da arte em si, o evento está programado para
+                        os dias
+                        15 e 16 de Fevereiro as 15:00hrs
+
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
