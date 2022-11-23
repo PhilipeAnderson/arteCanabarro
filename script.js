@@ -430,4 +430,424 @@ function infoModal20() {
   mod.innerHTML = `Quadro a Óleo - 15`;  
   val.innerHTML = `R$: 1015,00`;
 }
+
+function infoModal21() {
+  let sqrCurrent21 = document.querySelector("#img21");
+  let sqrCurrentWay21 = sqrCurrent21.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay21);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal22() {
+  let sqrCurrent22 = document.querySelector("#img22");
+  let sqrCurrentWay22 = sqrCurrent22.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay22);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal23() {
+  let sqrCurrent23 = document.querySelector("#img23");
+  let sqrCurrentWay23 = sqrCurrent21.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay23);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal24() {
+  let sqrCurrent24 = document.querySelector("#img24");
+  let sqrCurrentWay24 = sqrCurrent24.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay24);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal21() {
+  let sqrCurrent21 = document.querySelector("#img21");
+  let sqrCurrentWay21 = sqrCurrent21.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay21);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal25() {
+  let sqrCurrent25 = document.querySelector("#img25");
+  let sqrCurrentWay25 = sqrCurrent25.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay25);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal26() {
+  let sqrCurrent26 = document.querySelector("#img26");
+  let sqrCurrentWay26 = sqrCurrent26.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay26);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal27() {
+  let sqrCurrent27 = document.querySelector("#img27");
+  let sqrCurrentWay27 = sqrCurrent27.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay27);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal28() {
+  let sqrCurrent28 = document.querySelector("#img28");
+  let sqrCurrentWay28 = sqrCurrent28.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay28);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal29() {
+  let sqrCurrent29 = document.querySelector("#img29");
+  let sqrCurrentWay29 = sqrCurrent29.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay29);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal30() {
+  let sqrCurrent30 = document.querySelector("#img30");
+  let sqrCurrentWay30 = sqrCurrent30.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay30);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal31() {
+  let sqrCurrent31 = document.querySelector("#img31");
+  let sqrCurrentWay31 = sqrCurrent31.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay31);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal32() {
+  let sqrCurrent32 = document.querySelector("#img32");
+  let sqrCurrentWay32 = sqrCurrent32.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay32);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal33() {
+  let sqrCurrent33 = document.querySelector("#img33");
+  let sqrCurrentWay33 = sqrCurrent33.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay33);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal34() {
+  let sqrCurrent34 = document.querySelector("#img34");
+  let sqrCurrentWay34 = sqrCurrent34.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay34);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal35() {
+  let sqrCurrent35 = document.querySelector("#img35");
+  let sqrCurrentWay35 = sqrCurrent35.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay35);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal36() {
+  let sqrCurrent36 = document.querySelector("#img36");
+  let sqrCurrentWay36 = sqrCurrent36.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay36);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal37() {
+  let sqrCurrent37 = document.querySelector("#img37");
+  let sqrCurrentWay37 = sqrCurrent37.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay37);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal38() {
+  let sqrCurrent38 = document.querySelector("#img38");
+  let sqrCurrentWay38 = sqrCurrent38.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay38);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal39() {
+  let sqrCurrent39 = document.querySelector("#img39");
+  let sqrCurrentWay39 = sqrCurrent39.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay39);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
+
+function infoModal40() {
+  let sqrCurrent40 = document.querySelector("#img40");
+  let sqrCurrentWay40 = sqrCurrent40.getAttribute('src');
+  sqr.setAttribute('src', sqrCurrentWay40);
+
+  des.innerHTML = `
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  Olá Sou o texto do quadro 15 Olá Sou o texto do quadro 15
+  Sou a descrição do quadro 15 Sou a descrição do quadro 15
+  `;
+
+  cri.innerHTML = `Jan/2020 - 15`;
+  art.innerHTML = `Miguel Canabarro - 15`;
+  mod.innerHTML = `Quadro a Óleo - 15`;  
+  val.innerHTML = `R$: 1015,00`;
+}
 /* </Modal */
