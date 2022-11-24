@@ -87,6 +87,20 @@ header {
   color: #000;
 }
 
+.playPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: white;
+}
+
+.cifra {
+  color: white;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
